@@ -7,8 +7,8 @@ public class Exercise03 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a value for feet: ");
         double foot = input.nextDouble();
-        double meters = foot*0.305;
-        System.out.println(foot+" feet is "+meters+" meters");
+        double meters = foot * 0.305;
+        System.out.println(foot + " feet is " + meters + " meters");
 
     }
 }

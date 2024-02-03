@@ -1,5 +1,5 @@
 public class PopulationProjection {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int SECONDS_IN_YEAR = 365 * 24 * 60 * 60;
         int CURRENT_POPULATION = 312032486;
 
