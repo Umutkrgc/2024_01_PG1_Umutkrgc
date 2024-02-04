@@ -3,7 +3,7 @@ package Chapter02;
 import java.util.Scanner;
 
 public class Exercise11 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the number of years: ");
         int numberOfYears = input.nextInt();
