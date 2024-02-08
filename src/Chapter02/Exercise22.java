@@ -7,9 +7,7 @@ public class Exercise22 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("enter your money with the last 2 digits in fractions : ");
-
         int amount = input.nextInt();
-
         input.close();
 
         double dollars= amount/100;
