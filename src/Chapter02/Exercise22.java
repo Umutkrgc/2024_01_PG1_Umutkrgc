@@ -10,10 +10,10 @@ public class Exercise22 {
         int amount = input.nextInt();
         input.close();
 
-        double dollars= amount/100;
+        double dollars = amount / 100;
         double cent = amount % 100;
 
-        System.out.println(dollars+" dollars "+cent+" cent");
+        System.out.println(dollars + " dollars " + cent + " cent");
     }
 }
 // dogru bir cozum mu ?

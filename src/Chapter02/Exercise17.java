@@ -13,9 +13,9 @@ public class Exercise17 {
 
         // twc = 35.74 + 0.6215 ta - 35.75v0.16 + 0.4275tav0.16
 
-        double windChillTemperature = 35.74 + 0.6215 * outSideFahrenheit 
-            - 35.75 * Math.pow(speed, 0.16) + 0.4275 * outSideFahrenheit * Math.pow(speed, 0.16);
-        
+        double windChillTemperature = 35.74 + 0.6215 * outSideFahrenheit
+                - 35.75 * Math.pow(speed, 0.16) + 0.4275 * outSideFahrenheit * Math.pow(speed, 0.16);
+
         System.out.println("The wind chill index is " + windChillTemperature);
     }
 }
