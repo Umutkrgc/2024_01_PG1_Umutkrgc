@@ -4,6 +4,7 @@ public class Exercise06 {
     public static void main(String[] args) {
         displayPattern(9);
     }
+
     public static void displayPattern(int n) {
         for (int i = 1; i <= n; i++) {
             // Print spaces before numbers

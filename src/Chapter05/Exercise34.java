@@ -9,7 +9,7 @@ public class Exercise34 {
         int computerWins = 0;
 
         while (Math.abs(userWins - computerWins) <= 2) {
-            int computer = (int)(Math.random() * 3);
+            int computer = (int) (Math.random() * 3);
 
             System.out.print("Enter a number (0: scissor, 1: rock, 2: paper): ");
             int user = input.nextInt();
@@ -42,10 +42,14 @@ public class Exercise34 {
 
     public static String choiceName(int choice) {
         switch (choice) {
-            case 0: return "scissor";
-            case 1: return "rock";
-            case 2: return "paper";
-            default: return "invalid";
+            case 0:
+                return "scissor";
+            case 1:
+                return "rock";
+            case 2:
+                return "paper";
+            default:
+                return "invalid";
         }
     }
 }

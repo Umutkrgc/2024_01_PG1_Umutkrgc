@@ -15,10 +15,10 @@ public class Exercise04 {
         input.close();
     }
 
-    public static void reverse(int number){
-        String numberStr= Integer.toString(number);
+    public static void reverse(int number) {
+        String numberStr = Integer.toString(number);
 
-        for (int i= numberStr.length()-1;i>=0;i--){
+        for (int i = numberStr.length() - 1; i >= 0; i--) {
             System.out.print(numberStr.charAt(i));
         }
         System.out.println();

@@ -13,15 +13,15 @@ public class Exercise30 {
         double annualInterestRate = input.nextDouble();
 
         System.out.print("Enter the number of months: ");
-        int months= input.nextInt();
+        int months = input.nextInt();
 
         input.close();
 
-        double monthlyInterestRate = annualInterestRate/100/12;
+        double monthlyInterestRate = annualInterestRate / 100 / 12;
 
-        double totalAmount = 0 ;
-        for (int i =0; i<months; i++){
-            totalAmount=(totalAmount+monthlySaving)*(1+monthlyInterestRate);
+        double totalAmount = 0;
+        for (int i = 0; i < months; i++) {
+            totalAmount = (totalAmount + monthlySaving) * (1 + monthlyInterestRate);
         }
         System.out.printf("After %d months, the account value is $%.2f%n", months, totalAmount);
 

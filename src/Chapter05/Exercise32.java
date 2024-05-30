@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Exercise32 {
     public static void main(String[] args) {
-        int lotteryDigit1 = (int)(Math.random() * 10);
+        int lotteryDigit1 = (int) (Math.random() * 10);
 
         int lotteryDigit2;
         do {
-            lotteryDigit2 = (int)(Math.random() * 10);
+            lotteryDigit2 = (int) (Math.random() * 10);
         } while (lotteryDigit1 == lotteryDigit2);
 
         int lottery = lotteryDigit1 * 10 + lotteryDigit2;

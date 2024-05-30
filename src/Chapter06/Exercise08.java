@@ -5,7 +5,9 @@ public class Exercise08 {
         return (9.0 / 5) * celsius + 32;
     }
 
-    /** Convert from Fahrenheit to Celsius */
+    /**
+     * Convert from Fahrenheit to Celsius
+     */
     public static double fahrenheitToCelsius(double fahrenheit) {
         return (5.0 / 9) * (fahrenheit - 32);
     }

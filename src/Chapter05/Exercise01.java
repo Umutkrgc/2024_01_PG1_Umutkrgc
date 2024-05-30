@@ -17,14 +17,13 @@ public class Exercise01 {
 
         do {
             num = input.nextInt();
-            if (num == 0){
-                if (piece==0){
+            if (num == 0) {
+                if (piece == 0) {
                     System.out.println("No numbers are entered except 0");
 
                 }
                 break;
-            }
-            else  {
+            } else {
                 if (num < 0) {
                     negative += 1;
                 } else {

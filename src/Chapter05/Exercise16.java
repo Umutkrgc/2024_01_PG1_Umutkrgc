@@ -11,14 +11,14 @@ public class Exercise16 {
 
         System.out.print(num + " the least divisors of the number: ");
         int factor = 2;
-        while (factor <= num){
+        while (factor <= num) {
             if (num % factor == 0) {
                 System.out.print(factor);
                 num /= factor;
                 if (num != 1) {
                     System.out.print(", ");
                 }
-            }else {
+            } else {
                 factor++;
             }
         }

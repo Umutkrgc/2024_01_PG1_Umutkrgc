@@ -15,6 +15,7 @@ public class Exercise05 {
 
         input.close();
     }
+
     public static void displaySortedNumbers(double num1, double num2, double num3) {
         double temp;
 

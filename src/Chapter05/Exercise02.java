@@ -13,8 +13,8 @@ public class Exercise02 {
 
         while (count < NUMBER_OF_QUESTIONS) {
             // 1. Generate two random single-digit integers
-            int number1 = (int) (1+Math.random() * 15);
-            int number2 = (int) (1+Math.random() * 15);
+            int number1 = (int) (1 + Math.random() * 15);
+            int number2 = (int) (1 + Math.random() * 15);
 
             // 2. If number1 < number2, swap number1 with number2
             if (number1 < number2) {

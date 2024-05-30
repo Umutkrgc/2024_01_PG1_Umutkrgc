@@ -2,11 +2,11 @@ package Chapter05;
 
 public class Exercise27 {
     public static void main(String[] args) {
-        int count=0;
+        int count = 0;
 
-        for (int year =101; year<=2100; year++){
+        for (int year = 101; year <= 2100; year++) {
 
-            boolean isLeap = (year % 4 == 0 && year % 100 !=0)||(year%400==0);
+            boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
             if (isLeap) {
                 System.out.printf("%d ", year);
                 count++;
