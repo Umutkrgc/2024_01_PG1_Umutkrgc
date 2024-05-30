@@ -7,17 +7,17 @@ public class Exercise31 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter 0 to convert USD to RMB, 1 for RMB to USD: ");
         int exchangeRate = input.nextInt();
-        if (exchangeRate == 0  ){
+        if (exchangeRate == 0) {
             System.out.println("Please enter the amount rate in dollars: ");
             double rateDollar = input.nextDouble();
-            double totalRBM =  rateDollar * exchangeRate;
+            double totalRBM = rateDollar * exchangeRate;
             System.out.println(rateDollar + " is " + totalRBM + "yuan");
-        }else if (exchangeRate == 1){
+        } else if (exchangeRate == 1) {
             System.out.println("Please enter the amount rate in RMB: ");
             double rateRBM = input.nextDouble();
-            double totalDollar =  rateRBM / exchangeRate;
+            double totalDollar = rateRBM / exchangeRate;
             System.out.println(rateRBM + " is " + totalDollar + "dollar");
-        }else{
+        } else {
             System.out.println("Incorrect input");
         }
     }

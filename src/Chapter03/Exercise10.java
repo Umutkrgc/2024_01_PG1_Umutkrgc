@@ -13,9 +13,9 @@ public class Exercise10 {
 
         if (num1 + num2 == answer) {
             System.out.println("you are correct!!");
-        } else{
+        } else {
             System.out.println("your answer is wrong");
-            System.out.println(num1 + " + " + num2 + " should be "+ (num1+num2));
+            System.out.println(num1 + " + " + num2 + " should be " + (num1 + num2));
         }
     }
 }

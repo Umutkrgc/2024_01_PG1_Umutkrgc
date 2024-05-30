@@ -10,8 +10,8 @@ public class Exercise16 {
         int height = 200;
 
         Random random = new Random();
-        int randomX= centerX-width/2+random.nextInt(width);
-        int randomY= centerY-width/2+random.nextInt(height);
+        int randomX = centerX - width / 2 + random.nextInt(width);
+        int randomY = centerY - width / 2 + random.nextInt(height);
 
         System.out.println("Random Coordinate in Rectangle:");
         System.out.println("(" + randomX + ", " + randomY + ")");

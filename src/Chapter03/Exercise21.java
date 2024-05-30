@@ -19,5 +19,6 @@ public class Exercise21 {
 
         String[] dayOfWeekNames = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
         String dayofWeek = dayOfWeekNames[h];
-        System.out.println("Day of the week is " + dayofWeek);    }
+        System.out.println("Day of the week is " + dayofWeek);
+    }
 }

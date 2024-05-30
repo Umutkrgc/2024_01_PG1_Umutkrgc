@@ -12,12 +12,12 @@ public class Exercise33 {
         double weightPackage2 = input.nextDouble();
         double pricePackage2 = input.nextDouble();
 
-        double Package1 = pricePackage1 / weightPackage1 ;
+        double Package1 = pricePackage1 / weightPackage1;
         double Package2 = pricePackage2 / weightPackage2;
-        if(Package2 == Package1){
+        if (Package2 == Package1) {
             System.out.println("Two packages have the same price.");
         } else if (Package2 > Package1) {
             System.out.println("Package 1 has a better price.");
-        }else System.out.println("Package 2 has a better price.");
+        } else System.out.println("Package 2 has a better price.");
     }
 }

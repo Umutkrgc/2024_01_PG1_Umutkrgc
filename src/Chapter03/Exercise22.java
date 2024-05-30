@@ -8,10 +8,10 @@ public class Exercise22 {
         System.out.println("Please enter a point (x,y): ");
         double x = input.nextDouble();
         double y = input.nextDouble();
-        double distance = Math.sqrt((x * x) + ( y * y ));
-        if(distance <= 10){
+        double distance = Math.sqrt((x * x) + (y * y));
+        if (distance <= 10) {
             System.out.println("Point (" + x + ", " + y + ") is in the circle");
-        }else {
+        } else {
             System.out.println("Point (" + x + ", " + y + ") is not in the circle");
         }
 

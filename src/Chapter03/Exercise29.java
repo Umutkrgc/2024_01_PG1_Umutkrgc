@@ -14,7 +14,7 @@ public class Exercise29 {
         double y2 = input.nextDouble();
         double circle2Radius = input.nextDouble();
         input.close();
-        if ( Math.abs(circle1Radius - circle2Radius) == 6 ){
+        if (Math.abs(circle1Radius - circle2Radius) == 6) {
             System.out.println("");
         }
 

@@ -9,9 +9,9 @@ public class Exercise23 {
         double x = input.nextDouble();
         double y = input.nextDouble();
 
-        if(Math.abs(x) < 5 && Math.abs(y) < 2.5){
+        if (Math.abs(x) < 5 && Math.abs(y) < 2.5) {
             System.out.println("Point (" + x + ", " + y + ") is in the rectangle");
-        }else {
+        } else {
             System.out.println("Point (" + x + ", " + y + ") is not in the rectangle");
         }
     }
