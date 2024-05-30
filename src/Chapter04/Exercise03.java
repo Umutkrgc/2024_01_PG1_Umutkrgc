@@ -1,5 +1,7 @@
 package Chapter04;
+
 import java.lang.Math;
+
 public class Exercise03 {
     public static void main(String[] args) {
         double georgiaAtlantaLatitude = 33.7490;
@@ -10,7 +12,7 @@ public class Exercise03 {
         double georgiaSavannahLongitude = -81.0912;
         double northCarolinaCharlotteLatitude = 35.2271;
         double northCarolinaCharlotteLongitude = -80.8431;
-        double distanceAtlantaOrlando= calculateDistance(georgiaAtlantaLatitude, georgiaAtlantaLongitude, floridaOrlandoLatitude, floridaOrlandoLongitude);
+        double distanceAtlantaOrlando = calculateDistance(georgiaAtlantaLatitude, georgiaAtlantaLongitude, floridaOrlandoLatitude, floridaOrlandoLongitude);
         double distanceOrlandoSavannah = calculateDistance(floridaOrlandoLatitude, floridaOrlandoLongitude, georgiaSavannahLatitude, georgiaSavannahLongitude);
         double distanceSavannahCharlotte = calculateDistance(georgiaSavannahLatitude, georgiaSavannahLongitude, northCarolinaCharlotteLatitude, northCarolinaCharlotteLongitude);
         double distanceCharlotteAtlanta = calculateDistance(northCarolinaCharlotteLatitude, northCarolinaCharlotteLongitude, georgiaAtlantaLatitude, georgiaAtlantaLongitude);

@@ -1,7 +1,9 @@
 package Chapter04;
 
 import java.util.Scanner;
+
 import static java.lang.Math.*;
+
 public class Exercise02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
