@@ -1,4 +1,5 @@
 package chapter01;
+
 public class Exercise05 {
     public static void main(String[] args) {
         //Verilen islemin sonucunu veren kod

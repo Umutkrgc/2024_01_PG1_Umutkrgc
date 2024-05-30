@@ -1,4 +1,5 @@
 package chapter01;
+
 public class Exercise10 {
     public static void main(String[] args) {
         //Assume a runner runs 14 kilometers in 45 minutes and 30

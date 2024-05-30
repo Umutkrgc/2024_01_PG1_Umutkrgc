@@ -1,4 +1,5 @@
 package chapter01;
+
 public class Exercise09 {
     public static void main(String[] args) {
         double width = 4.5;
